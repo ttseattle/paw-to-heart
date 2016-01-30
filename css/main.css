@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:400,700);
+
 /* Menu Bar */
 
 #logo {
@@ -30,6 +32,10 @@
 }
 
 /* End of Menu Bar */
+
+h1 {
+    font-family: 'Comfortaa';
+}
 
 body {
     background: #E7E7E7;
@@ -66,3 +72,4 @@ body {
     margin: 20px;
     box-shadow: 0px 4px 8px #888888;
 }
+

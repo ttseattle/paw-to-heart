@@ -9,7 +9,7 @@
 	<body>
         <?php include 'views/menu.php'; ?>
         <div class="container">
-		    <h1>Success Stories!</h1>
+		    <h1>SUCCESS STORIES</h1>
             <fieldset>
                 <legend>Snowball</legend>
                 <p>
