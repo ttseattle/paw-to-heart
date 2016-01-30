@@ -14,12 +14,12 @@
 			<ul class="nav navbar-nav">
                 <li><a href="../found.php"> Browse Found </a></li>
                 <li><a href="../lost.php"> Browse Lost </a></li>
-				<li><a href="#">Success Stories</a></li>
-				<li><a href="#"> About </a></li>
+				<li><a href="../stories.php">Success Stories</a></li>
+				<li><a href="../about.php"> About </a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#">Report Found</a></li>
-				<li><a href="#">Report Lost</a></li>
+				<li><a href="../foundPet.php">Report Found</a></li>
+				<li><a href="../lostPet.php">Report Lost</a></li>
 			</ul>
 		</div>
 	</div>
