@@ -1,0 +1,10 @@
+Species,Breed,Color,Gender,Size,Extra Info,Image URL,Lost,Found
+dog,pomeranian,brown,male,small,,pom.png,1,0
+dog,Labrador Retriever,yellow,female,medium,,lab.jpg,1,0
+dog,Labrador Retriever,yellow,female,medium,,lab.jpg,0,0
+dog,Chihuahua,brown,male,small,,chihuahua.jpg,0,1
+cat,,grey,male,medium,,greycat.jpg,1,0
+cat,,grey,male,medium,,greycat.jpg,0,1
+cat,Siamese,white brown,female,small,,siamase.jpg,0,1
+dog,great dane,white black ,male,large,,greatdane.png,1,0
+dog,pitbull,white brown,female,large,three legs,3leg.jpg,0,1
