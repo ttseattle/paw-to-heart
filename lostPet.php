@@ -9,7 +9,7 @@
 	<body>
         <div class="container">
             <?php include 'views/menu.php'; ?>
-            <p><h1>Lost Pet</h1></p>
+            <p><h1>REPORT A LOST PET</h1></p>
             <fieldset>
                 <legend>Pet Information</legend>
                 <p>
