@@ -20,7 +20,7 @@
             <fieldset>
                 <legend>Spike</legend>
                 <p>
-                    <img src="_http://aquafind.com/images/pug.gif" alt="Happy Dog" > </br>
+                    <img src="http://aquafind.com/images/pug.gif" alt="Happy Dog" > </br>
                     A few months ago, our small Californian town was hit with a series of earthquakes. Spike was pretty spooked and ran all over the house barking at the furniture. When things were calm, I thought it would be ok to open the front door to check the damage outside, but right as I did, we were hit by yet another quake and Spike ran straight out the door... My wife stopped me from running after him because the ground was still shaking, but once we got the radio gave us the official ok, I went outside and spent a good 3 hours looking for him. I didn’t find him, so I called all of our neighbors and all of the animal shelters, but no luck. Turns out, someone a few blocks over found Spike hiding under a bush and took him in to ride out the earthquakes. If they hadn’t posted on paw to heart, we would have never found him! Thank you paw to heart!
                 </p>
             </fieldset> 
