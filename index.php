@@ -40,7 +40,7 @@ $matches = $model->getAll();
 
         <!-- First Featurette -->
         <div class="featurette" id="about">
-            <img class="featurette-image img-circle img-responsive pull-right" src="/data/dogandowner.jpg" width="100" height="100">
+            <img class="featurette-image img-circle img-responsive pull-right" src="/data/dogandowner.jpg" width="200" height="200">
             <h2 class="featurette-heading">About
                 <span class="text-muted">Paw to Heart</span>
             </h2>
@@ -51,7 +51,7 @@ $matches = $model->getAll();
 
         <!-- Second Featurette -->
         <div class="featurette" id="services">
-            <img class="featurette-image img-circle img-responsive pull-left" src="/data/snowball.jpeg" width="100" height="100">
+            <img class="featurette-image img-circle img-responsive pull-left" src="/data/snowball.jpeg" width="200" height="200">
             <h2 class="featurette-heading">Success 
                 <span class="text-muted">Stories</span>
             </h2>
@@ -62,7 +62,7 @@ $matches = $model->getAll();
 
         <!-- Third Featurette -->
         <div class="featurette" id="contact">
-            <img class="featurette-image img-responsive pull-right" src="/data/mobile.png" width="100" height="100">
+            <img class="featurette-image img-responsive pull-right" src="/data/mobile.png" width="200" height="200">
             <h2 class="featurette-heading">Mobile 
                 <span class="text-muted">Application</span>
             </h2>
