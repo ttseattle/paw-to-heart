@@ -23,6 +23,7 @@ $matches = $model->getLost();
     <?php $count = 1 ?>
     <div class="container">
         <h1> BROWSE LOST PETS </h1>
+        <hr>
         <?php foreach($matches as $match): ?>
             <div class="pet-wrapper">
                 <a href="<?php echo "more-info.php?" . htmlentities($match['pet_id']); ?>">

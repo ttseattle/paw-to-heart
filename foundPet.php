@@ -10,6 +10,7 @@
         <div class="container">
             <?php include 'views/menu.php'; ?>
             <p><h1>FOUND PET</h1></p>
+            <hr>
             <fieldset>
                 <legend>Pet Information</legend>
                 <p>

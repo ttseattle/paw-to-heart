@@ -37,7 +37,7 @@ $match = $model->getById($id)[0];
             $more = $match['more'];
             ?>
             <div class="col-md-3"> 
-                <img class="pet-img" src="data/pet-images/<?= $match['img']?>">
+                <img class="pet-img img-circle" src="data/pet-images/<?= $match['img']?>">
             </div>
             <div class="col-md-8 col-md-offset-1"> 
                 <br/>
