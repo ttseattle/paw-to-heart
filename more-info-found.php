@@ -18,10 +18,13 @@ $match = $model->getById($id)[0];
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Paw to Heart</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/more-info.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="shortcut icon" href="data/logo2.png">
 </head>
 <body>
     <?php include 'views/menu.php'; ?>
@@ -42,9 +45,33 @@ $match = $model->getById($id)[0];
             <div class="col-md-8 col-md-offset-1"> 
                 <br/>
                 <?php include'views/info.php'; ?>
-                <button class="btn btn-default">This Is My Pet!</button>
+                    <!-- Trigger the modal with a button -->
+                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">This is my Pet!</button>
             </div>
         </div>
+    </div>
+    <?php include 'views/footer.php'; ?>
+    
+
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Hooray!</h4>
+        </div>
+        <div class="modal-body">
+            <p> We are connecting you with the person who found your pet! Expect an email soon.</p>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+        </div>
+
+    </div>
     </div>
 </body>
 </html>

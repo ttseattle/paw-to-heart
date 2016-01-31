@@ -30,9 +30,13 @@ if (isset($selectOption)) {
         <h1> BROWSE FOUND PETS </h1>
         <hr>
         <?php include 'views/selector.php'; ?>
+        <p> 
+        These pets were found and still looking for their owners. 
+        Click on the picture to find out more about this furry friend!
+        </p>
         <?php foreach($matches as $match): ?>
             <div class="pet-wrapper">
-                <a href="<?php echo "more-info.php?" . htmlentities($match['pet_id']); ?>">
+                <a href="<?php echo "more-info-found.php?" . htmlentities($match['pet_id']); ?>">
                     <img class="pet-img"  src="data/pet-images/<?= $match['img']?>">
                 </a>
             </div>

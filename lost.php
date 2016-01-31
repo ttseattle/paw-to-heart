@@ -18,7 +18,7 @@ if (isset($selectOption)) {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title> Browse Lost Pets </title>
+    <title> Paw to Heart </title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <link rel="shortcut icon" href="data/logo2.png">
@@ -30,9 +30,12 @@ if (isset($selectOption)) {
         <h1> BROWSE LOST PETS </h1>
         <hr>
         <?php include 'views/selector.php'; ?>
+        <p>
+        These pets were reported missing by their owners. Have you seen them? Click on the picture for more information. 
+        </p>
         <?php foreach($matches as $match): ?>
             <div class="pet-wrapper">
-                <a href="<?php echo "more-info.php?" . htmlentities($match['pet_id']); ?>">
+                <a href="<?php echo "more-info-lost.php?" . htmlentities($match['pet_id']); ?>">
                     <img class="pet-img"  src="data/pet-images/<?= $match['img']?>">
                 </a>
             </div>

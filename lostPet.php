@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Lost Pet</title>
+		<title>Paw to Heart</title>
 		<link rel="stylesheet" type="text/css" href="pet.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="shortcut icon" href="data/logo2.png">
 	</head>
 	<body>
         <div class="container">
