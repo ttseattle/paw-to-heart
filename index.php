@@ -40,9 +40,9 @@ $matches = $model->getAll();
 
         <!-- First Featurette -->
         <div class="featurette" id="about">
-            <img class="featurette-image img-circle img-responsive pull-right" src="/data/snowball.jpeg">
+            <img class="featurette-image img-circle img-responsive pull-right" src="/data/dogandowner.jpg" width="100" height="100">
             <h2 class="featurette-heading">About
-                <span class="text-muted">Heart for Paw</span>
+                <span class="text-muted">Paw to Heart</span>
             </h2>
             <p class="lead">During natural disasters, pet owners are often seperated from their pets. Our mission is to reunite them. We believe that pets are family too. So let’s find your family together.</p>
         </div>
@@ -51,7 +51,7 @@ $matches = $model->getAll();
 
         <!-- Second Featurette -->
         <div class="featurette" id="services">
-            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
+            <img class="featurette-image img-circle img-responsive pull-left" src="/data/snowball.jpeg" width="100" height="100">
             <h2 class="featurette-heading">Success 
                 <span class="text-muted">Stories</span>
             </h2>
@@ -62,7 +62,7 @@ $matches = $model->getAll();
 
         <!-- Third Featurette -->
         <div class="featurette" id="contact">
-            <img class="featurette-image img-circle img-responsive pull-right" src="/data/mobile.png">
+            <img class="featurette-image img-responsive pull-right" src="/data/mobile.png" width="100" height="100">
             <h2 class="featurette-heading">Mobile 
                 <span class="text-muted">Application</span>
             </h2>
@@ -75,7 +75,7 @@ $matches = $model->getAll();
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <p>Copyright &copy; Paw to Heart 2016</p>
                 </div>
             </div>
         </footer>
