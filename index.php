@@ -15,6 +15,7 @@ $matches = $model->getAll();
     <meta charset="UTF-8">
     <title>Paw to Heart</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="shortcut icon" href="data/logo2.png">
 </head>
@@ -39,7 +40,7 @@ $matches = $model->getAll();
 
         <!-- First Featurette -->
         <div class="featurette" id="about">
-            <img class="featurette-image img-circle img-responsive pull-right" src="/data/dogandowner.jpg" width="200" height="200">
+            <img class="featurette-image img-circle img-responsive pull-right" src="/data/dogandowner.jpg" width="500" height="500">
             <h2 class="featurette-heading">About
                 <span class="text-muted">Paw to Heart</span>
             </h2>
@@ -50,7 +51,7 @@ $matches = $model->getAll();
 
         <!-- Second Featurette -->
         <div class="featurette" id="services">
-            <img class="featurette-image img-circle img-responsive pull-left" src="/data/snowball.jpeg" width="200" height="200">
+            <img class="featurette-image img-circle img-responsive pull-left" src="/data/snowball.jpeg" width="500" height="500">
             <h2 class="featurette-heading">Success 
                 <span class="text-muted">Stories</span>
             </h2>
@@ -61,7 +62,7 @@ $matches = $model->getAll();
 
         <!-- Third Featurette -->
         <div class="featurette" id="contact">
-            <img class="featurette-image img-responsive pull-right" src="/data/mobile.png" width="200" height="200">
+            <img class="featurette-image img-responsive pull-right" src="/data/mobile.png" width="500" height="500">
             <h2 class="featurette-heading">Mobile 
                 <span class="text-muted">Application</span>
             </h2>
