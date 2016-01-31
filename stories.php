@@ -20,8 +20,8 @@
                 <div class="col-md-8">
                     <h2> Snowball </h2>
                     <p>
-                    We thought we lost it all when the hurricane hit. Our home was destroyed, none of our family heirlooms were salvageable, and we thought we would never see our girl Snowball ever again. After settling into a safe place, we called everyone on our contact list to ask if they had seen our girl. We got one no after another and lost just about all hope until we found paw to heart. They made it so easy to connect with the kind strangers who took our girl in. We are absolutely ecstatic to have our girl back home, and have paw to heart to thank for bringing our family back together!
-                    </p>
+			We thought we lost it all when the hurricane hit. Our home was destroyed and we weren’t allowed to evacuate with our pets. We thought we would never see our girl Snowball ever again. After settling into a safe place, we called every shelter to ask if they’d seen her, but no one had found her. We had lost just about all hope until we found Paw to Heart. They made it so easy to connect with the kind strangers who took our girl in. We’re absolutely ecstatic to have our girl back, and have Paw to Heart to thank for bringing our family back together!
+		    </p>
                 </div>
             </div>
             <div class="row">
