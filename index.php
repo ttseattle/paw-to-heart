@@ -32,7 +32,6 @@ $matches = $model->getAll();
     </header>
 
     <!-- Page Content -->
-    <div class="container">
 
         <hr class="featurette-divider">
         
@@ -71,7 +70,6 @@ $matches = $model->getAll();
             <p class="lead">Coming soon.</p>
         </div>
 
-    </div>
     
     <!-- /.container -->
 

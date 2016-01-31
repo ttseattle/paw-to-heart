@@ -21,9 +21,12 @@
                 <img src="http://www.animalalliancenyc.org/wordpress/wp-content/uploads/PRPhoto-LostandFound01.png">
             </div>
             <div class="row">
-                <p>
+                <p id="desc">
                     Here at Paw to Heart, we believe that pets are family. With the help of the community, we serve as a beacon of hope in the midst of disaster by connecting owners with their furry family members.
                 </p>
+            </div>
+            <div id="logo-wrapper" class="row">
+                <img src="data/logo2.png">
             </div>
         </div>
         <?php include 'views/footer.php'; ?>

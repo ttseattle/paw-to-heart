@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Comfortaa:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato);
 
 /* Menu Bar */
 
@@ -41,8 +42,10 @@ body {
     background: #E7E7E7;
     margin-top: 130px;
     margin-bottom: 50px;
+    font-size: 12pt;
+    font-family: 'Lato';
 }
-
+    
 .container {
     background: rgba(295, 295, 295, 0.8);
 }
