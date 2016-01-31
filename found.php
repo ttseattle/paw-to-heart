@@ -38,5 +38,6 @@ if (isset($selectOption)) {
             </div>
         <?php endforeach; ?>
     </div>
+    <?php include 'views/footer.php'; ?>
 </body>
 </html>

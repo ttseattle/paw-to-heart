@@ -35,29 +35,33 @@ $matches = $model->getAll();
     <div class="container">
 
         <hr class="featurette-divider">
-
-        <!-- First Featurette -->
-        <div class="featurette" id="about">
-            <img class="featurette-image img-circle img-responsive pull-right" src="/data/dogandowner.jpg" width="500" height="500">
-            <h2 class="featurette-heading">About
-                <span class="text-muted">Paw to Heart</span>
-            </h2>
-            <p class="lead">During natural disasters, pet owners are often seperated from their pets. Our mission is to reunite them. We believe that pets are family too. So let’s find your family together.</p>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <!-- Second Featurette -->
-        <div class="featurette" id="services">
-            <img class="featurette-image img-circle img-responsive pull-left" src="/data/snowball.jpeg" width="500" height="500">
-            <h2 class="featurette-heading">Success 
-                <span class="text-muted">Stories</span>
-            </h2>
-            <p class="lead">Learn more about stories like Camille and Snowball's.<br><br>"We thought we lost it all when the hurricane hit. Our home was destroyed and we weren’t allowed to evacuate with our pets. We thought we would never see our girl Snowball ever again. After settling into a safe place, we called every shelter to ask if they’d seen her, but no one had found her."</p>
-        </div>
+        
+        <a href="about.php">
+            <!-- First Featurette -->
+            <div class="featurette" id="about">
+                <img class="featurette-image img-circle img-responsive pull-right" src="/data/dogandowner.jpg" width="500" height="500">
+                <h2 class="featurette-heading">About
+                    <span class="text-muted">Paw to Heart</span>
+                </h2>
+                <p class="lead">During natural disasters, pet owners are often seperated from their pets. Our mission is to reunite them. We believe that pets are family too. So let’s find your family together.</p>
+            </div>
+        </a>
 
         <hr class="featurette-divider">
 
+        <a href="stories.php">
+            <!-- Second Featurette -->
+            <div class="featurette" id="services">
+                <img class="featurette-image img-circle img-responsive pull-left" src="/data/snowball.jpeg" width="500" height="500">
+                <h2 class="featurette-heading">Success 
+                    <span class="text-muted">Stories</span>
+                </h2>
+                <p class="lead">Learn more about stories like Camille and Snowball's.<br><br>"We thought we lost it all when the hurricane hit. Our home was destroyed and we weren’t allowed to evacuate with our pets. We thought we would never see our girl Snowball ever again. After settling into a safe place, we called every shelter to ask if they’d seen her, but no one had found her."</p>
+            </div>
+        </a>
+
+        <hr class="featurette-divider">
+        
         <!-- Third Featurette -->
         <div class="featurette" id="contact">
             <img class="featurette-image img-responsive pull-right" src="/data/mobile.png" width="500" height="500">
@@ -67,18 +71,8 @@ $matches = $model->getAll();
             <p class="lead">Coming soon.</p>
         </div>
 
-        <hr class="featurette-divider">
-
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Paw to Heart 2016</p>
-                </div>
-            </div>
-        </footer>
-
     </div>
+    
     <!-- /.container -->
 
     <!-- jQuery -->
@@ -88,5 +82,7 @@ $matches = $model->getAll();
     <script src="js/bootstrap.min.js"></script>
 
     </div>
+    <?php include 'views/footer.php'; ?>
+    
 </body>
 </html>

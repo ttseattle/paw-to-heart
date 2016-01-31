@@ -25,5 +25,6 @@
                 </p>
             </div>
         </div>
+        <?php include 'views/footer.php'; ?>
 	</body>
 </html>
