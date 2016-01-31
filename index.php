@@ -26,10 +26,8 @@ $matches = $model->getAll();
     <!-- Full Width Image Header -->
     <header class="header-image">
         <div class="headline">
-            <div class="container">
-                <h1>Pets are family too.</h1>
-                <h2>Let's find your family together.</h2>
-            </div>
+            <h1>Pets are family too.</h1>
+            <h2>Let's find your family together.</h2>
         </div>
     </header>
 

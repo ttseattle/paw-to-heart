@@ -7,6 +7,11 @@ $q = $_GET['q'];
 $conn = getConnection();
 $model = new Model($conn);
 $matches = $model->getFound();
+
+$selectOption = isset($_POST['taskOption']) ? $_POST['taskOption'] : 'all'; 
+if (isset($selectOption)) {
+    $matches = $model->getFoundBySpecies($selectOption);
+}
 ?>
 
 <!DOCTYPE html>
@@ -24,6 +29,7 @@ $matches = $model->getFound();
     <div class="container">
         <h1> BROWSE FOUND PETS </h1>
         <hr>
+        <?php include 'views/selector.php'; ?>
         <?php foreach($matches as $match): ?>
             <div class="pet-wrapper">
                 <a href="<?php echo "more-info.php?" . htmlentities($match['pet_id']); ?>">

@@ -1,3 +1,7 @@
 .pet-container {
     margin: 20px;
 }
+
+img {
+    box-shadow: 0px 4px 8px #888888;
+}
