@@ -40,7 +40,7 @@ $matches = $model->getAll();
 
         <!-- First Featurette -->
         <div class="featurette" id="about">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+            <img class="featurette-image img-circle img-responsive pull-right" src="/data/snowball.jpeg">
             <h2 class="featurette-heading">About
                 <span class="text-muted">Heart for Paw</span>
             </h2>
@@ -62,7 +62,7 @@ $matches = $model->getAll();
 
         <!-- Third Featurette -->
         <div class="featurette" id="contact">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+            <img class="featurette-image img-circle img-responsive pull-right" src="/data/mobile.png">
             <h2 class="featurette-heading">Mobile 
                 <span class="text-muted">Application</span>
             </h2>
